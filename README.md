@@ -19,7 +19,7 @@ $ meteor
 
 ```
 
-Open the browser with `http://localhost:3000`
+Open the browser with `http://localhost:3000`: tha page stays blank.
 
 Open the browser's console (here with FF):
 
