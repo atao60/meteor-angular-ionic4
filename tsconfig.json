@@ -1,0 +1,48 @@
+{
+    "compilerOptions": {
+      "allowJs": true,
+      "allowSyntheticDefaultImports": true,
+      "baseUrl": ".",
+      "declaration": false,
+      "emitDecoratorMetadata": true,
+      "experimentalDecorators": true,
+      "importHelpers": true,
+      "lib": [
+        "dom",
+        "es2015",
+        "es2016"
+      ],
+      "module": "commonjs",
+      "moduleResolution": "node",
+      "sourceMap": true,
+      "target": "es5",
+      "skipLibCheck": true,
+      "stripInternal": true,
+      "noImplicitAny": false,
+      "types": [
+        "@types/jasmine",
+        "@types/lodash",
+        "@types/meteor",
+        "@types/mocha",
+        "@types/underscore",
+        "@types/underscore.string"
+      ]
+    },
+    "files": [
+      "server/main.js",
+      "client/main.js"
+    ],
+    "include": [
+      "client/**/*.ts",
+      "server/**/*.ts",
+      "imports/**/*.ts"
+    ],
+    "exclude": [
+      "node_modules",
+      ".meteor/local"
+    ],
+    "compileOnSave": false,
+    "atom": {
+      "rewriteTsconfig": false
+    }
+  }
